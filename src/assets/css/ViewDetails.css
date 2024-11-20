@@ -1,0 +1,92 @@
+.mainn {
+  height: 100dvh;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 64px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url("https://img.freepik.com/free-photo/mysterious-detective-game-concept-opened-notebook-leather-cover-sheet-white-paper-felt-brown-hat-big-vintage-magnifier-steel-glasses-isolated-black-aged-wood-table-top-view_346278-1499.jpg?t=st=1731926414~exp=1731930014~hmac=e6862f61c285ace1f82fe5a6c000fa966c3f11f4f4c1d18b5544c9f376463d2a&w=996");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Arial;
+}
+
+.detail-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.sim_img_box {
+  display: grid;
+  grid-template-columns: repeat(2, 80px);
+  gap: 20px;
+  width: 100%;
+}
+
+.similar {
+  width: 100%;
+}
+
+.left {
+  width: 60%;
+  display: flex;
+  gap: 100px;
+}
+
+.post{
+  border: 5px solid white;
+  border-radius: 4px;
+}
+
+ .download{
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #5DA93C;
+  color: white;
+ }
+
+ .watch{
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 15px;
+ }
+
+ .detail-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+ }
+
+ .WEB{
+  background-color: #211C1E;
+  color: white;
+  border: none;
+  padding: 4px;
+ }
+
+ .details-section{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ }
+
+ .web{
+  display: flex;
+  gap: 10px;
+ }
+
+ .subty{
+  width: 200px;
+  padding: 6px 0px;
+ }
+
+ .sim-movies{
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 12px;
+ }
